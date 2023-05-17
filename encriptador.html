@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CHALLENGE 1</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+     
+        
+    </head>
+    <body>
+        <header>
+           <div class="caja">
+                <h1><img src="imagenes/logo.png" alt="Logo de la pagina ecriptadora"></h1>
+                <h1 class="Title">ENCRIPTADOR DE MENSAJES</h1>
+                <nav>
+                    <ul>
+                        <li><a href="inicio-encripta.html">HOME</a></li>
+                        <li><a href="encriptador.html">ENCRIPTADOR</a></li>
+                    </ul>
+                </nav>
+           </div>        
+        </header>
+        <div class="contenedor">
+
+            <div class="contenedor-izq">
+                <h1><img src="imagenes/Logo.png" ></h1>
+                <div class="contenedorlimpiar">
+                    <input type="button" value="Limpiar" id="limpiar">
+                    <textarea  id="textareainput" placeholder="Ingrese el texto aquí" rows="12" ></textarea>
+                </div>
+                <p><i class="fa fa-exclamation-circle" style="color:red;font-size: 125%;"></i> Ingresar solo letras minúsculas y sin acentos</p>
+                <div class="botones">
+                    <input type="button" value="Encriptar" id="encriptar">    
+                    <input type="button" value="Desencriptar" id="desencriptar">
+                </div>
+            </div>
+            
+            <div class="contenedor-der">
+                <div class="espacioblanco">
+                    <img src="imagenes/Muñeco.png" >
+                    <p id="titulo">Ningún Mensaje fue Encontrado</p>
+                    <p id="subtitulo">Ingresa el texto que desees encriptar o desencriptar.</p>
+                    <textarea id="textareaoutput" rows="12"></textarea>
+                    <div class="tooltip">
+                        <input type="button" value ="Copiar" id="copiar"><span class="tooltiptext" >Copiar al portapapeles</span></input>    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="javstyle.js"></script>
+    </body>
+    <footer>
+        <p class="Copyright">&copy Copyright Sergio Adrián Lázaro López 2023</p>
+    </footer>
+</html>
